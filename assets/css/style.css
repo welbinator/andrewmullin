@@ -1,0 +1,150 @@
+body {
+  background: #89cff0;
+  color: navy;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+
+/*UTILITY CLASSES*/
+
+.center-text {
+  text-align: center;
+}
+
+.menu-items {
+  list-style-type: none;
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: center;
+}
+
+.menu-item {
+  background: red;
+  padding: 10px 20px;
+}
+
+h1.main-heading {
+  color: white;
+  font-size: clamp(16px, 2vw, 32px);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+
+  padding: 20px;
+}
+.wrapper {
+  box-shadow: 5px 5px 12px #0000804f;
+  width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.logo {
+  /* position: fixed; */
+  background: white;
+  padding: 6px;
+}
+.logo.left {
+  left: 5%;
+}
+.logo.right {
+  right: 5%;
+}
+
+.iowa-flag {
+  max-width: 300px;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  height: 100vh;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+}
+audio {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+}
+/*   EVENTS PAGE    */
+main.events-page h1 {
+  color: navy;
+  text-shadow: -5px -5px red;
+}
+
+main.events-page h2 {
+  color: navy;
+}
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.events {
+  /* width: calc(100% - 500px); */
+  flex-grow: 3;
+}
+
+main.events-page video {
+  /* width: 450px; */
+  flex-grow: 1;
+}
+
+/*  CONTACT PAGE   */
+
+.iowa-capitol {
+  display: block;
+  margin: auto;
+}
+
+/* MR MULLIN */
+
+.lion-container {
+  display: flex;
+}
+
+.lion-container img {
+  width: 300px;
+}
+
+.mrs img {
+  max-width: 500px;
+  height: auto;
+  width: 100%;
+}
+
+.state-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 680px) {
+  .menu-item {
+    background: green;
+  }
+  .lion-container {
+    flex-direction: column;
+  }
+}
