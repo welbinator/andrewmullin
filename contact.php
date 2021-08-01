@@ -1,8 +1,8 @@
 <?php include "includes/header.php" ?>
 
       <main>
-        <h1>Contact Andrew Mullin and Mrs. Mullin</h1>
-        <h2>
+        <h1  class="text-center">Contact Andrew Mullin and Mrs. Mullin</h1>
+        <h2  class="text-center">
           In this one nation under God, indivisible- this land filled with
           seekers, dreamers, and doers- May we never lose sight of what makes
           our country great: We the people. Good, kind, caring, people.

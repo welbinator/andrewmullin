@@ -16,7 +16,7 @@
             <img class="logo" src="assets/images/logo.gif" alt="" />
           </div>
           <div class="heading">
-            <h1 class="main-heading">
+            <h1 class="main-heading text-center">
               Andrew Mullin Democratic Candidate for Iowa Governor
             </h1>
           </div>

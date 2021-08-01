@@ -1,12 +1,12 @@
 <?php include "includes/header.php" ?>
 
       <main>
-        <h1>About Andrew Mullin</h1>
-        <h2>
-          "America without her soldiers would be like God without His angels."
-          Claudia Pemberton
+        <h1 class="text-center">About Andrew Mullin</h1>
+        <h2 class="text-center">
+          "America without her soldiers would be like God without His angels."<br>
+          -Claudia Pemberton
         </h2>
-        <h3>
+        <h3 class="text-center">
           We love our Veterans! All Service Men and Women and our wonderful Iowa
           National Guard! Let's Deliver Results Victoriously!
         </h3>
@@ -14,7 +14,7 @@
 
       <section>
         <div class="lion-container">
-          <img src="/assets/images/lion.jpg" />
+          <img class="m-auto d-block" src="/assets/images/lion.jpg" />
           <ul>
             <li><h3>Vote a Leader!</h3></li>
             <li><h3>Vote a Lion!</h3></li>

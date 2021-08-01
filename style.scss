@@ -12,6 +12,9 @@ body {
 img {
   max-width: 100%;
 }
+ul {
+  list-style: none;
+}
 .wrapper {
   width: 70%;
   margin: auto;
@@ -40,9 +43,7 @@ header {
   }
 }
   
-  h1 {
-    text-align: center;
-  }
+ 
 
   .logo {
     padding: 0.3em;
@@ -94,7 +95,7 @@ header {
 main {
   padding: 50px 0;
   h2 {
-    text-align: center;
+    
     margin: 25px 0;
   }
   p {
@@ -124,6 +125,15 @@ main {
   justify-content: space-between;
 }
 
+.text-center {
+  text-align: center; 
+}
+.m-auto {
+  margin: auto;
+}
+.d-block {
+  display: block;
+}
 /***** MEDIA QUERIES *****/
 
 @media screen and (max-width: 1080px) {
@@ -141,6 +151,10 @@ main {
   }
 }
 @media screen and (max-width: 768px) {
+
+  .wrapper {
+    width: 100%;
+  }
   .hide-sm {
     display: none;
   }
@@ -170,10 +184,12 @@ main {
         flex-direction: column;
 
         li {
-          text-align: center;
+          margin: 20px 0 0 20px;
           a {
             color: white;
             font-size: 2em;
+            text-transform: uppercase;
+            
           }
         }
       }
